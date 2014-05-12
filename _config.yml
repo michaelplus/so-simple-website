@@ -1,8 +1,8 @@
 title:            Site Title
 description:      Describe your website here.
-logo:             site-logo.png
+logo:             null
 disqus_shortname: 
-search:           true
+search:           false
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
@@ -32,17 +32,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: Home
+    url: /
+  - title: About Us
     url: /about/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Directions
-    url: /directions/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Map and Contact
+    url: /Map-Contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
